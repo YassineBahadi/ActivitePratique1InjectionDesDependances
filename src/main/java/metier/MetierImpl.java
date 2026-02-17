@@ -1,16 +1,18 @@
-package Metier;
+package metier;
 
-import Dao.IDao;
+import dao.IDao;
 
 /**
  * @author pc
  **/
-public class IMetierImpl implements IMetier {
+public class MetierImpl implements IMetier {
     private IDao dao;
 
-    public IMetierImpl(){}
+    public MetierImpl(){}
 
-    public IMetierImpl(IDao dao){
+
+
+    public MetierImpl(IDao dao){
         this.dao=dao;
     }
 
