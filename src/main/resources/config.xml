@@ -3,8 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="d" class="daoExtension.DaoImplV2"></bean>
-    <bean id="metier" class="metier.MetierImpl">
-        <property name="dao" ref="d"></property>
+    <bean id="d" class="ma.yassine.daoExtension.DaoImplV2"></bean>
+    <bean id="metier" class="ma.yassine.metier.MetierImpl">
+<!--        <property name="dao" ref="d"></property>-->
+        <constructor-arg ref="d"></constructor-arg>
     </bean>
 </beans>

@@ -1,4 +1,4 @@
-package dao;
+package ma.yassine.dao;
 
 /**
  * @author pc

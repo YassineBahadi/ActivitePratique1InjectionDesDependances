@@ -1,4 +1,4 @@
-package metier;
+package ma.yassine.metier;
 
 /**
  * @author pc
