@@ -139,7 +139,6 @@ Spring performs setter-based dependency injection automatically.
 
 ## Class Diagram
 
-<h2>Class Diagram</h2>
 
 <p align="center">
   <img src="docs/class-diagram.png" alt="Class Diagram" width="700">
